@@ -5,6 +5,6 @@ import java.io.IOException;
 public class BufferdReaderExTest {
     public static void main(String[] args) throws IOException {
         BufferedReaderEx bufferedReaderEx = new BufferedReaderEx();
-        bufferedReaderEx.readALine();
+        bufferedReaderEx.plusTwoNumbers();
     }
 }
