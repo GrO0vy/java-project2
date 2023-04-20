@@ -1,2 +1,10 @@
-package com.likelion.javaproject2.week1;public class ScannerStrEx {
+package com.likelion.javaproject2.week1;
+
+import java.util.Scanner;
+
+public class ScannerStrEx {
+    void inputStringsAndPlus(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.next() + sc.next());
+    }
 }
