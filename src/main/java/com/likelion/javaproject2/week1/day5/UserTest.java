@@ -13,6 +13,7 @@ public class UserTest {
         jaesung.phoneNumber = "010-3333-4444";
         jaesung.age = 28;
 
-
+        System.out.printf("%s님은 성인입니까?? %s\n",jaesung.name,jaesung.isAdult());
+        System.out.printf("%s님은 성인입니까?? %s\n",mincheol.name,mincheol.isAdult());
     }
 }
