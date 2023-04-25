@@ -10,5 +10,6 @@ public class CodeUp1018 {
         input = sc.nextLine();
 
         System.out.println(input);
+
     }
 }
