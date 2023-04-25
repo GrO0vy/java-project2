@@ -6,5 +6,8 @@ public class StringConcat {
         String s2 = "World";
 
         System.out.println(s1+" " +s2);
+
+        String s3 = s1.concat(s2);
+        System.out.println(s3);
     }
 }
