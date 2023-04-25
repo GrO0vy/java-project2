@@ -1,4 +1,4 @@
-package com.likelion.javaproject2.week2;
+package com.likelion.javaproject2.week2.day1;
 
 public class VariableEx {
     public static void main(String[] args) {
