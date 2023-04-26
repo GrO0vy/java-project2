@@ -11,5 +11,6 @@ public class TwoDimArray {
         System.out.println(arr0[0]);
         System.out.println(arr0[1]);
         System.out.println(arr0[2]);
+
     }
 }
