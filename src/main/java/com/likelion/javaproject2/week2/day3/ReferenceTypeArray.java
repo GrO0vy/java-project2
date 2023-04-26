@@ -13,6 +13,6 @@ public class ReferenceTypeArray {
         students[1].phoneNumber = "010-1234-5678";
 
         System.out.printf("students[0] : name = %s , age = %d , phoneNumber = %s\n",students[0].name,students[0].age,students[0].phoneNumber);
-        System.out.printf("students[1] : name = %s , age = %d , phoneNumber = %s\n",students[1].name,students[1].age,students[1].phoneNumber);
+        System.out.printf("students[1] : name = %s , age = %d , phoneNumber = %s\n",students[1].name,students[1].age,students[1 ].phoneNumber);
     }
 }
