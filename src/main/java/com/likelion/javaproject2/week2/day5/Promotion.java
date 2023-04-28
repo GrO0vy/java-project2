@@ -2,7 +2,7 @@ package com.likelion.javaproject2.week2.day5;
 
 import java.util.Scanner;
 
-public class promotion {
+public class Promotion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
