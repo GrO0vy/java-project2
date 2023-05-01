@@ -7,6 +7,6 @@ public class DecreaseOperator {
         System.out.println(i);
 
         int iVal2 = 10;
-        System.out.println(iVal2);
+        System.out.println(--iVal2);
     }
 }
