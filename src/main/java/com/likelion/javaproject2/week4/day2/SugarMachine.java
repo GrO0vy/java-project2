@@ -1,9 +1,14 @@
 package com.likelion.javaproject2.week4.day2;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class SugarMachine {
     private int[][] grid;
+
+    public SugarMachine(){
+        this.grid = new int[7][7];
+    }
 
     public SugarMachine(int height , int width){
         this.grid= new int[height][width];
@@ -33,8 +38,15 @@ public class SugarMachine {
 
     public static void main(String[] args) {
         SugarMachine sm = new SugarMachine(5,5);
-        sm.printGrid(2,0,1,1);
-        sm.printGrid(3,1,2,3);
-        sm.printGrid(4,1,2,5);
+        Scanner sc = new Scanner(System.in);
+        int cntOfBar = sc.nextInt();
+        for(int i=0; i<cntOfBar; i++){
+            sm.printGrid(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt());
+        }
+
+        SugarMachine sm2 = new SugarMachine();
+        for(int i=0; i<cntOfBar; i++){
+            sm2.printGrid(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt());
+        }
     }
 }
