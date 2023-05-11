@@ -45,9 +45,9 @@ public class CodeUp3108_2 {
         return false;
     }
 
-    public void printSpecificStudent(int[] indexes){
-        for(int i = 0; i <5; i++){
-            System.out.printf("%s %s\n",students.get(indexes[i]).getCode(), students.get(indexes[i]).getName());
+    public void printSpecificStudents(int[] indexes){
+        for(int i = 0; i <indexes.length; i++){
+            System.out.printf("%s %s\n",students.get(indexes[i]-1).getCode(), students.get(indexes[i]-1).getName());
         }
     }
 
@@ -70,9 +70,13 @@ public class CodeUp3108_2 {
             codeUp3108_2.process(data[0],Integer.parseInt(data[1]),data[2]);
         }
 
-        int[] indexes = {sc.nextInt()-1,sc.nextInt()-1,sc.nextInt()-1,sc.nextInt()-1,sc.nextInt()-1};
+        String[] strIndexes = sc.nextLine().split(" ");
+        int[] indexes = new int[strIndexes.length];
+        for(int i=0; i<indexes.length; i++){
+            indexes[i] = Integer.parseInt(strIndexes[i]);
+        }
 
-        codeUp3108_2.printSpecificStudent(indexes);
+        codeUp3108_2.printSpecificStudents(indexes);
     }
 }
 
