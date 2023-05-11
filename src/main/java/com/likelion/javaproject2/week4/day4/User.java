@@ -6,6 +6,11 @@ public class User {
     private String password;
     private int age;
 
+    public User(String phoneNumber, int age){
+        this.phoneNumber = phoneNumber;
+        this.age = age;
+    }
+
     public User(String name, String phoneNumber, String password, int age) {
         this.name = name;
         this.phoneNumber = phoneNumber;
