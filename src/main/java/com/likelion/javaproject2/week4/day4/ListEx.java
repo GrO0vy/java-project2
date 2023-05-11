@@ -12,9 +12,13 @@ public class ListEx {
         System.out.println(l1.get(1));
         System.out.println(l1.size());
         System.out.println(l1.isEmpty());
-        l1.remove(0);
-        l1.remove(0);
+ /*       l1.remove(0);
+        l1.remove(0);*/
         System.out.println(l1.isEmpty());
         System.out.println(l1.size());
+
+        for(var item : l1){
+            System.out.println(item);
+        }
     }
 }
