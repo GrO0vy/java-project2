@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadFileEx {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\lmc28\\Downloads\\건강보험심사평가원_전국 병의원 및 약국 현황 2022.9\\1.병원정보서비스 2022.10..csv"));
+        BufferedReader br = new BufferedReader(new FileReader("./hospital.csv"));
         System.out.println(br.readLine());
     }
 }
