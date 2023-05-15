@@ -4,15 +4,18 @@ import java.util.Arrays;
 
 public class BubbleSort01 {
     public static void main(String[] args) {
-        int[] arr = {7, 2, 3, 9, 28, 1};
+        int[] arr = {7, 2, 3, 9, 4, 3};
 
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                int temp = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = temp;
-            }
-        }
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
+
+        System.out.println(Arrays.toString(arr));
+
+        temp = arr[1];
+        arr[1] = arr[2];
+        arr[2] = temp;
+
         System.out.println(Arrays.toString(arr));
     }
 }
