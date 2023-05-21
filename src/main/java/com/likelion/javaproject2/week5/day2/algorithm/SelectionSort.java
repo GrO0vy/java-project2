@@ -1,4 +1,4 @@
-package com.likelion.javaproject2.algorithm;
+package com.likelion.javaproject2.week5.day2.algorithm;
 
 import java.util.Arrays;
 
