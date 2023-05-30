@@ -9,9 +9,16 @@ public class LeapYear {
         checkLeapYear(year);
     }
 
-    private static void checkLeapYear(int year){
-        if( (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0) ) System.out.printf("%d O\n", year);
-        else System.out.printf("%d X\n", year);
+    public static boolean checkLeapYear(int year){
+        if( (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0) ) {
+            System.out.printf("%d O\n", year);
+            return true;
+        }
+        else {
+            System.out.printf("%d X\n", year);
+            return false;
+        }
+
     }
 
 }
